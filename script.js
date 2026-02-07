@@ -1,5 +1,5 @@
 // your code here
-	document.getElementById("button").addEventListner("click",function(event){
+	document.getElementById("button").addEventListener("click",function(event){
 	   event.preventDefault();
 		let name= document.getElementById("name").value;
 		let year= document.getElementById("year").value;
