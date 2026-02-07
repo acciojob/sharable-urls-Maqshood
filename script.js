@@ -4,6 +4,6 @@
 		let name= document.getElementById("name").value;
 		let year= document.getElementById("year").value;
 
-		let url = `https://localhost:8080/?name=${name}&year=&{year}`;
+		let url = `https://localhost:8080/?name=${name}&year=${year}`;
 		document.getElementById("url").textContent=url;
 	});
